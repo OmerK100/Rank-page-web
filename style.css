@@ -1,0 +1,146 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: overpass;
+    src: url(./Overpass-VariableFont_wght.ttf);
+  }
+
+  body {
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: overpass;
+  }
+
+  #star {
+    border-radius: 100vmax;
+    margin-left: 9%;
+    margin-top: 9%;
+    height: 15px;
+    width: 15px;
+    padding: 18px;
+    background-color: hsl(213 , 20%, 22%);
+  }
+
+  .main-container {
+    min-height: 400px;
+    min-width: 400px;
+    width: 28%;
+    height: 60vh;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #rate {
+    height: 5vh;
+    display: flex;
+    width: 86%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 7%;
+  }
+
+  #how {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10%;
+    color: hsl(0 , 0% , 100%);
+    margin-bottom: -4%;
+  }
+
+  #para-one {
+    width: 90%;
+    margin-left: 10%;
+    font-size: 15;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2%;
+  }
+
+  .rank-num {
+    border-radius: 100vmax;
+    width: 50px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213 , 20%, 22%);
+    transition: 0.3s;
+    border: none;
+  }
+
+  .rank-num:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0 , 0% , 100%);
+  }
+
+  .rank-num:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0 , 0% , 100%);
+  }
+
+  #submit {
+    width: 80%;
+    height: 6vh;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+
+  #submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+  }
+
+  #thx-img {
+    height: 15vh;
+    width: 40%;
+    margin-top: 10%;
+  }
+
+  #selected {
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: hsl(213 , 20%, 22%);
+    padding: 8px 22px;
+  }
+
+  #thx-text {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: -5%;
+  }
+
+  #para-two {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin-bottom: 7%;
+    width: 78%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #sec {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .hidden {
+    display: none;
+  }
